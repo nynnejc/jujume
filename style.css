@@ -90,9 +90,7 @@ img {
   position: absolute;
   opacity: .9;
   mix-blend-mode: multiply;
-  left: 5px;
-  bottom: 10px;
-  top: 1px;
+  max-width: auto;
 }
 
 .animation1 {
@@ -118,6 +116,43 @@ img {
 .animation6 {
   animation: img_position6 3s infinite alternate;
 }
+
+
+.img_position1 {
+  left: 20%;
+  bottom: 0;
+  height: 50%;
+}
+
+.img_position2 {
+  left: 37%;
+  bottom: 10%;
+  height: 54%;
+}
+
+.img_position3 {
+  right: 10%;
+  bottom: 13%;
+  height: 55%;
+}
+
+.img_position4 {
+  height: 100%;
+}
+
+.img_position5 {
+  right: 30%;
+  top: 2%;
+  height: 40%;
+}
+
+.img_position6 {
+  left: 40%;
+  bottom: 49%;
+  height: 45%;
+}
+
+
 
 @keyframes img_position1 {
   0% {
